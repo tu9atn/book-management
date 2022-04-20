@@ -170,7 +170,8 @@ public class GUI_Book extends JFrame implements ActionListener, MouseListener {
 
 		try {
 			list = (BookList) SaveFileByObject.readFile("data//ListBook_SaveObject.txt");
-			// update tran
+			// tran update 3.
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

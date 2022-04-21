@@ -169,15 +169,12 @@ public class GUI_Book extends JFrame implements ActionListener, MouseListener {
 		};
 
 		try {
-			list = (BookList) SaveFileByObject.readFile("data//ListBook_SaveObject.txt");
-			// tran update 3.
-
+			//list = (BookList) SaveFileByObject.readFile("data//ListBook_SaveObject.txt");
+			//loadDataToTable(list.getList());
+			//loadDataToComBoBox();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
-		loadDataToTable(list.getList());
-		loadDataToComBoBox();
 
 		tblSach = new JTable(modelTable);
 		JScrollPane sc = new JScrollPane(tblSach);

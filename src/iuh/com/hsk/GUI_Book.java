@@ -171,7 +171,7 @@ public class GUI_Book extends JFrame implements ActionListener, MouseListener {
 		try {
 			//list = (BookList) SaveFileByObject.readFile("data//ListBook_SaveObject.txt");
 			//loadDataToTable(list.getList());
-			//loadDataToComBoBox();
+			loadDataToComBoBox();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
